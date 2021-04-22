@@ -4,10 +4,12 @@ public class Teacher {
 	
 	private int name;
 	private int salary;
-	public Teacher(int name, int salary) {
+	private int vehiclenumber;
+	public Teacher(int name, int salary,int vehiclenumber) {
 		super();
 		this.name = name;
 		this.salary = salary;
+		this.vehiclenumber=vehiclenumber;
 	}
 	public int getName() {
 		return name;
