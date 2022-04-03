@@ -23,6 +23,11 @@ public class Teacher {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+
+	public calculate(int sum){
+		int a,b;
+		int sum= a+b;
+	}
 	
 	
 
